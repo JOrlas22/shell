@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#En este scrip va a imprimir las veces pedidas
+#En este scrip va a imprimir las veces pedidas.
 counter=1
 while [ $counter -le 10 ]
 do
