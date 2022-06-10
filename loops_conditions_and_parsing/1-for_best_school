@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
+#se imprimira "Best School" el total de veces que indique el contador
 for (( counter=10; counter>0; counter-- ))
-echo
+do
+	echo "Best School"
 done
-print "\n"
