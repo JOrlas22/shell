@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#se imprime un conteo en varias lineas
+counter=1
+until [ $counter -gt 10 ]
+do
+echo "Best School"
+((counter++))
+done
