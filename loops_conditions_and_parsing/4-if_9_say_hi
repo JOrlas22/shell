@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Secuencia de comandos Bash que muestra "Bset School" 10 veces, pero para la novena línea muestra "Best School" y luego "Hi" en una nueva línea
+cont=0
+while [ $cont -lt 10 ]
+do
+if [ $cont -eq 9 ]
+then
+echo "Hi"
+fi
+echo "Best School"
+let cont=cont+1
+done
