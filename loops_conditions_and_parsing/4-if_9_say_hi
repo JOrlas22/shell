@@ -1,4 +1,5 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
+#Secuencia de comandos Bash que muestra "Bset School" 10 veces, pero para la novena línea muestra "Best School" y luego "Hi" en una nueva línea
 COUNTER=0
 while [ $COUNTER -lt 11 ]
 do
