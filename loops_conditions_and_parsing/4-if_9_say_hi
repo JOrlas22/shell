@@ -6,7 +6,7 @@ do
 if [ $counter = 9 ]
 then
 echo "Hi"
-fi
+else
 echo "Best School"
 let counter+=1
 done
