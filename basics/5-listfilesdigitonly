@@ -1,5 +1,2 @@
 #!/bin/bash
-pwd
-ls -l
-ls -n
-ls -a
+ls -na
